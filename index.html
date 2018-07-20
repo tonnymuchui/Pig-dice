@@ -14,17 +14,22 @@
 <div class="container">
   <div class="well">
   <div class="row">
-    <div class="col-md-6 player1">
+    <div class="col-md-4 player1">
       <h2>Player one</h2>
       <div class="dice" id="player1">0</div>
       <button onclick="rollDice()" class="btn btn-info xlarge">player one roll</button>
-      <!-- <p id="status"></p> -->
     </div>
-    <div class="col-md-6 player2">
+    <br>
+      <div class="col-md-4">
+        <p class="text-center"id="status"></p>
+        <br>
+<button type="button" onclick="hold"class="btn btn-info xlarge"id="hold">Hold</button>
+      </div>
+      <br>
+    <div class="col-md-4 player2">
       <h2>player two</h2>
       <div class="dice" id="player2">0</div>
-      <button onclick="rollDice()" class="btn btn-warning xlarge">player two roll</button>
-      <p id="status"></p>
+      <button onclick="rollDice2()" class="btn btn-warning xlarge">player two roll</button>
     </div>
   </div>
 </div>
