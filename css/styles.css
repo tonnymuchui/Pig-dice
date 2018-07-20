@@ -3,3 +3,9 @@
   text-align: center;
   color: red;
 }
+.container {
+  background-image: url('../img/back.jpeg');
+}
+.fire {
+  background-image: url('../img/fire.jpeg');
+}
