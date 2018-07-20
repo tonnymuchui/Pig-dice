@@ -7,8 +7,8 @@ var p2 = Math.floor(Math.random() * 6) + 1;
 var total = p1 + p2;
 player1.innerHTML = p1 ;
 player2.innerHTML = p2 ;
-// status.innerHTML = "You rolled "+total+".";
-// if (p1 === p2) {
-//   status.innerHTML += "Doubles!!! you get a free turn";
-// };
+status.innerHTML = "You rolled "+total+".";
+if (p1 === p2) {
+  status.innerHTML += "Doubles!!! you get a free turn";
+};
 };
